@@ -1,4 +1,4 @@
-CSS_1
+CSS_1: Bold.
 =====
 
-CSS used as a simple theme for those that don't know CSS. Will collect these in /r/moderatorduck. This is the first. Modified from r/awesome.
+CSS for customizing your subreddit without learning CSS. Just copy and paste it into your stylesheet. This is the first of several.
