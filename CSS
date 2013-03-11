@@ -1,9 +1,10 @@
 /*=== CSS_1 CSS by Iamducky ===*/
-/* http://redd.it/175qfx */
-/* Original CSS credit to r/awesome */
+/*=== http://redd.it/175qfx ====*/
+/*=== Original CSS credit to r/awesome ===*/
 
 
 /*=== Custom stylesheet ===*/
+
 .stylesheet-customize-container { width: 100%; }
 #subreddit_stylesheet { display: block; overflow: hidden; }
 .sheets { margin: 0;}
@@ -49,11 +50,9 @@ div.title {
 .sidecontentbox .title h1 {
   color: white;
 }
-
 a:hover {
    text-decoration: underline
 }
-
 .form#newlink {
     margin-top: 0 !important
 }
@@ -68,11 +67,9 @@ div.side {
 .link.last-clicked {
     border: inherit
     }
-
 .link, .commentarea {
     overflow: hidden
 }
-
 div.side .titlebox form.toggle {
     background-color: transparent
 }
@@ -138,18 +135,15 @@ div.side .titlebox form.toggle {
     font-size: 10px;
     color: #FFF
 }
-
 #sr-header-area {
    color: black!important;
    background: transparent!important;
-   white-space: nowrap;
-   text-transform: uppercase;
+   text-transform: lowercase;
    border-bottom: 0px !important;
    font-size: 100%;
    height: 25px!important;
    line-height: 25px!important;
 }
-
 #RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash {
   width: 16px;
   cursor: pointer;
@@ -169,11 +163,30 @@ div.side .titlebox form.toggle {
 .sr-bar a {
   color: black;
 }
+/* Subscribe/Side buttons */
+/*Subscribe*/
+.fancy-toggle-button .add,
+.RESshortcutside,
+.RESDashboardToggle {
+   background-image: none !important;
+   background-color: #0091F0; border-radius: 0px !important;
+}
+
+/*Unsubscribe*/
+.fancy-toggle-button .remove,
+.RESshortcutside.remove,
+.RESDashboardToggle.remove {
+   background-color: #DD513B;
+   border-radius: 0px !important;
+   background-image:none !important;
+}
+
 
 /*=== Submit a link and message the moderator buttons ===*/
 
 /* Message the moderators */
 /* Edit the link and add your subreddit to the end */
+
 .helplink[href="/message/compose?to=%2Fr%2FCSS_1"] {
     display: block;
     font-weight: normal;
@@ -281,25 +294,6 @@ body .keyHighlight { border: 0px; background: #eee; outline: none; }
      padding: 0px; 
      margin: 0px; 
 }
-
-/*=== Subscribe/Side buttons ===*/
-/* Subscribe */
-.fancy-toggle-button .add,
-.RESshortcutside,
-.RESDashboardToggle {
-   background-image: none !important;
-   background-color: #0091F0; border-radius: 0px !important;
-}
-
-/* Unsubscribe */
-.fancy-toggle-button .remove,
-.RESshortcutside.remove,
-.RESDashboardToggle.remove {
-   background-color: #DD513B;
-   border-radius: 0px !important;
-   background-image:none !important;
-}
-
 
 /*=== Links ===*/
 .link {
@@ -772,6 +766,7 @@ div#RESSubredditGroupDropdown ul li {
 }
 
 /*=== Comment Stuff ===*/
+
 .author.moderator {
   color: white!important;
   font-weight: normal;
@@ -867,6 +862,7 @@ div#RESSubredditGroupDropdown ul li {
 }
 
 /*=== Style toggle tweaks ===*/
+
 .side .styleToggle {
     margin: 5px 10px 0px 0px;
     border: 1px solid #0091F0 !important;
@@ -913,18 +909,17 @@ div#RESSubredditGroupDropdown ul li {
     }
 
 /*=== Link Flair ===*/
+
 .flair-gif, .linkflair-gif .linkflairlabel, .linkflair.linkflair-gif > .linkflairlabel, .side a[href^="//#GIF"] {
     background: #8B5DC3 !important;
     border-color: #5100B5 !important;
     color: white;
     }
-
 .flair-video, .linkflair-video .linkflairlabel, .linkflair.linkflair-video > .linkflairlabel, .side a[href^="//#Video"] {
     background: #5DC3BF !important;
     border-color: #008785 !important;
     color: white;
     }
-
 .flair-image, .linkflair-image .linkflairlabel, .linkflair.linkflair-image > .linkflairlabel, .side a[href^="//#Image"] {
     background: #645DC3 !important;
     border-color: #460087 !important;
@@ -941,8 +936,7 @@ div#RESSubredditGroupDropdown ul li {
     color: white;
     }
 
-
-/*=== User Flair Stuff ===*/
+/*=== User Flair ===*/
 .flair-red-tag {
    background-color: #F75D59;
    color: white;
@@ -954,7 +948,6 @@ div#RESSubredditGroupDropdown ul li {
    -khtml-border-radius: 0px!important;
    border-radius: 0px !important;  
 }
-
 .flair-awesome-tag {
     background-color: #5D69C3;
     color: white;
@@ -1001,6 +994,7 @@ body.res-nightmode .side blockquote h1, body.res-nightmode .side blockquote h1 a
 body.res-nightmode .side h4+blockquote,body.res-nightmode .side h5+blockquote,body.res-nightmode .side h6+blockquote { background-color: #111; }
 
 /*=== Colors ===*/
+
 .md h4 + table { border-color: #9DFBA5; }
 .md h4 + table td, .md h4 + table th { border-right-color: #9DFBA5; }
 .md h4 + table tr:nth-child(even), .md h4 + table thead { background-color: #9DFBA5; }
@@ -1023,6 +1017,7 @@ body.res-nightmode .side h4+blockquote,body.res-nightmode .side h5+blockquote,bo
 .side h4 + blockquote { display:block; background-color:#9DFBA5; border:1px solid #9DFBA5; }
 
 /*=== FOOTER ===*/
+
 .footer-parent { 
     background-color: transparent;
     background-position: bottom center;
@@ -1062,4 +1057,5 @@ div.footer .flat-vert.title {
     margin-bottom: 0px
     }
 
-/* Check out r/moderatorduck for other stylesheets */
+/*=== Add your own custom styles below this line ===*/
+/*=== Check out r/moderatorduck for other stylesheets ===*/
