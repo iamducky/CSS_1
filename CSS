@@ -1,10 +1,11 @@
-/*=== CSS_1 CSS by Iamducky ===*/
-/*=== http://redd.it/175qfx ====*/
-/*=== Original CSS credit to r/awesome ===*/
+   /*========================*/
+  /*== "Bold" by Iamducky ==*/
+ /*= http://redd.it/175qfx */
+/*= Originally r/awesome =*/
+/*=======================*/
 
 
 /*=== Custom stylesheet ===*/
-
 .stylesheet-customize-container { width: 100%; }
 #subreddit_stylesheet { display: block; overflow: hidden; }
 .sheets { margin: 0;}
@@ -34,15 +35,13 @@
 }
 .redditname a:hover {
   /*color: [color];*/
-  text-shadow: 1px 1px 1px #0091F0!important;
-  Text-decoration:none !important;
+  text-decoration:none !important;
 }
 
 /*=== Sidebar ===*/
 
 div.title {
-   padding: 10px ; 
-   text-transform: uppercase;
+   padding: 10px ; ;
    margin: 0px;
    font-size: 102%;
    color: white !important;
@@ -50,9 +49,11 @@ div.title {
 .sidecontentbox .title h1 {
   color: white;
 }
+
 a:hover {
    text-decoration: underline
 }
+
 .form#newlink {
     margin-top: 0 !important
 }
@@ -67,9 +68,11 @@ div.side {
 .link.last-clicked {
     border: inherit
     }
+
 .link, .commentarea {
     overflow: hidden
 }
+
 div.side .titlebox form.toggle {
     background-color: transparent
 }
@@ -105,7 +108,7 @@ div.side .titlebox form.toggle {
 }
 .sidecontentbox a.helplink ~ ul.content li {
     padding: 4px;
-    border-bottom: 1px #F63454 solid
+    border-bottom: 1px #fff solid
 }
 .sidecontentbox a.helplink ~ ul.content li:last-child {
     border-bottom: none
@@ -117,15 +120,15 @@ div.side .titlebox form.toggle {
     border: none
 }
 .sidecontentbox div.reddit-link {
-    border-bottom: 1px #F63454 solid;
+    border-bottom: 1px #7BB850 solid;
     padding: 12px 4px
 }
 .sidecontentbox a.reddit-comment-link {
     font-size: 10px;
-    color: #F63454
+    color: #7BB850
  }
 .sidecontentbox span.score {
-    color: #FFF;
+    color: black;
     font-size: 9px
 }
 .sidecontentbox .gadget .reddit-link-end {
@@ -135,15 +138,18 @@ div.side .titlebox form.toggle {
     font-size: 10px;
     color: #FFF
 }
+
 #sr-header-area {
    color: black!important;
    background: transparent!important;
-   text-transform: lowercase;
+   white-space: nowrap;
+   text-transform: uppercase;
    border-bottom: 0px !important;
    font-size: 100%;
    height: 25px!important;
    line-height: 25px!important;
 }
+
 #RESShortcutsRight, #RESShortcutsLeft, #RESShortcutsAdd, #RESShortcutsTrash {
   width: 16px;
   cursor: pointer;
@@ -163,30 +169,11 @@ div.side .titlebox form.toggle {
 .sr-bar a {
   color: black;
 }
-/* Subscribe/Side buttons */
-/*Subscribe*/
-.fancy-toggle-button .add,
-.RESshortcutside,
-.RESDashboardToggle {
-   background-image: none !important;
-   background-color: #0091F0; border-radius: 0px !important;
-}
-
-/*Unsubscribe*/
-.fancy-toggle-button .remove,
-.RESshortcutside.remove,
-.RESDashboardToggle.remove {
-   background-color: #DD513B;
-   border-radius: 0px !important;
-   background-image:none !important;
-}
-
 
 /*=== Submit a link and message the moderator buttons ===*/
 
 /* Message the moderators */
 /* Edit the link and add your subreddit to the end */
-
 .helplink[href="/message/compose?to=%2Fr%2FCSS_1"] {
     display: block;
     font-weight: normal;
@@ -209,11 +196,11 @@ div.side .titlebox form.toggle {
     z-index: 3;
     text-decoration: none !important;
 }
-.helplink[href="/message/compose?to=%2Fr%2FCSS_1"]:hover{
+.helplink[href="/message//compose?to=%2Fr%2FCSS_1"]:hover{
     background-color: #0091F0;
     border-color: #7BB850;
 }
-.helplink[href="/message/compose?to=%2Fr%2FCSS_1"]:after{
+.helplink[href="/message/c/compose?to=%2Fr%2FCSS_1"]:after{
     content:'';
     display: block;
     position:absolute;
@@ -259,7 +246,7 @@ background:#0091F0;
     color: #ffffff;
     font-weight: normal;
     width: 100px;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 20px;
     position: absolute;
     bottom: 0;
@@ -295,7 +282,28 @@ body .keyHighlight { border: 0px; background: #eee; outline: none; }
      margin: 0px; 
 }
 
+/*=== Subscribe/Side buttons ===*/
+
+/* Subscribe */
+.fancy-toggle-button .add,
+.RESshortcutside,
+.RESDashboardToggle {
+   background-image: none !important;
+   background-color: #7BB850; border-radius: 0px !important;
+}
+
+/* Unsubscribe */
+.fancy-toggle-button .remove,
+.RESshortcutside.remove,
+.RESDashboardToggle.remove {
+   background-color: #DD513B;
+   border-radius: 0px !important;
+   background-image:none !important;
+}
+
+
 /*=== Links ===*/
+
 .link {
   border: 1px !important;
   border-left: 2px !important;
@@ -605,23 +613,24 @@ body .keyHighlight { border: 0px; background: #eee; outline: none; }
 /*=== Userbar, karma, username, etc. ===*/
 
 .user {
- color: #FFF;
+ color: #7BB850;
 }
 #header-bottom-right {
 background-color: white;
-opacity:1;color: #333333;
-border-top: 1px solid #9A9A9A!
-important;border-left: 5px solid #4D6277!important;
+border-top: 1px solid #9A9A9A!important;
+border-left: 5px solid #4D6277!important;
 border-bottom: 0px !important;
-top:38px !important;
+position: absolute;
+bottom: 0;
 height: 15px !important;
-vertical-align: middle !important;padding: 5px !important;
+vertical-align: middle !important;
+padding: 5px !important;
 }
 #header-bottom-right a { 
-color: #3986c3;
+color: black;
 }
 
-/*Res thingy*/
+/*RES thingy*/
 .roundfield, #REScommentSubToggle, #header-bottom-right, #userbarToggle {
 border-radius: 0px!important;
 }
@@ -767,44 +776,39 @@ div#RESSubredditGroupDropdown ul li {
 
 /*=== Comment Stuff ===*/
 
-.author.moderator {
-  color: white!important;
-  font-weight: normal;
-  padding: 0px 2px;
-  -moz-border-radius: 0px!important;
-  -webkit-border-radius: 0px!important;
-  -o-border-radius: 0px!important;
-  -ms-border-radius: 0px!important;
-  -khtml-border-radius: 0px!important;
-  border-radius: 0px !important;  
-  background-color: #c6daed!important;
+/* User highlighting from r/boxed */
+.tagline .author.submitter {
+    color: white !important;
+    background-color: #0055df !important;
+    font-weight: bold !important;
+    border-radius: 0px !important;
+    padding: 0px 2px !important;
 }
-.author.moderator:hover {
-  background-color: #c6daed !important;
-  text-decoration: none !important;
+
+.tagline .author.moderator {
+    color: white !important;
+    background-color: #228822 !important;
+    font-weight: bold !important;
+    border-radius: 0px !important;
+    padding: 0px 2px !important;
 }
-.res .author.moderator {
-  color: white!important;
-  font-weight: normal;
-  padding: 0px 2px;
-  background-color: #c6daed!important;
-  -moz-border-radius: 0px!important;
-  -webkit-border-radius: 0px!important;
-  -o-border-radius: 0px!important;
-  -ms-border-radius: 0px!important;
-  -khtml-border-radius: 0px!important;
-  border-radius: 0px !important;  
+
+.tagline .author.friend {
+    color: white !important;
+    background-color: #FF4500 !important;
+    font-weight: bold !important;
+    border-radius: 0px !important;
+    padding: 0px 2px !important;
 }
-.res .author.moderator:hover {
-  background-color: #c6daed !important;
-  text-decoration: none !important;
-}
+
+/* Comments */
 .comment .child {
   margin-top: 10px;
   margin-left: 15px;
   border-left: 0px solid !important
 }
-/*Cloned comment reply */
+
+/* Cloned comment reply */
 .usertext textarea {
    margin: 0; 
    padding: 0px; 
@@ -862,7 +866,6 @@ div#RESSubredditGroupDropdown ul li {
 }
 
 /*=== Style toggle tweaks ===*/
-
 .side .styleToggle {
     margin: 5px 10px 0px 0px;
     border: 1px solid #0091F0 !important;
@@ -909,17 +912,18 @@ div#RESSubredditGroupDropdown ul li {
     }
 
 /*=== Link Flair ===*/
-
 .flair-gif, .linkflair-gif .linkflairlabel, .linkflair.linkflair-gif > .linkflairlabel, .side a[href^="//#GIF"] {
     background: #8B5DC3 !important;
     border-color: #5100B5 !important;
     color: white;
     }
+
 .flair-video, .linkflair-video .linkflairlabel, .linkflair.linkflair-video > .linkflairlabel, .side a[href^="//#Video"] {
     background: #5DC3BF !important;
     border-color: #008785 !important;
     color: white;
     }
+
 .flair-image, .linkflair-image .linkflairlabel, .linkflair.linkflair-image > .linkflairlabel, .side a[href^="//#Image"] {
     background: #645DC3 !important;
     border-color: #460087 !important;
@@ -936,7 +940,8 @@ div#RESSubredditGroupDropdown ul li {
     color: white;
     }
 
-/*=== User Flair ===*/
+
+/*=== User Flair Stuff ===*/
 .flair-red-tag {
    background-color: #F75D59;
    color: white;
@@ -948,6 +953,7 @@ div#RESSubredditGroupDropdown ul li {
    -khtml-border-radius: 0px!important;
    border-radius: 0px !important;  
 }
+
 .flair-awesome-tag {
     background-color: #5D69C3;
     color: white;
@@ -994,7 +1000,6 @@ body.res-nightmode .side blockquote h1, body.res-nightmode .side blockquote h1 a
 body.res-nightmode .side h4+blockquote,body.res-nightmode .side h5+blockquote,body.res-nightmode .side h6+blockquote { background-color: #111; }
 
 /*=== Colors ===*/
-
 .md h4 + table { border-color: #9DFBA5; }
 .md h4 + table td, .md h4 + table th { border-right-color: #9DFBA5; }
 .md h4 + table tr:nth-child(even), .md h4 + table thead { background-color: #9DFBA5; }
@@ -1017,7 +1022,6 @@ body.res-nightmode .side h4+blockquote,body.res-nightmode .side h5+blockquote,bo
 .side h4 + blockquote { display:block; background-color:#9DFBA5; border:1px solid #9DFBA5; }
 
 /*=== FOOTER ===*/
-
 .footer-parent { 
     background-color: transparent;
     background-position: bottom center;
@@ -1056,6 +1060,3 @@ div.footer .flat-vert.title {
     font-weight: normal;
     margin-bottom: 0px
     }
-
-/*=== Add your own custom styles below this line ===*/
-/*=== Check out r/moderatorduck for other stylesheets ===*/
